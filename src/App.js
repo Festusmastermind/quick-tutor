@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CounterOne from "./components/CounterOne";
+import CounterThree from "./components/CounterThree";
+import CounterTwo from "./components/CounterTwo";
+import DataFetchingOne from "./components/DataFetchingOne";
+import DataFetchingTwo from "./components/DataFetchingTwo";
+import HookCounterFour from "./components/HookCounterFour";
+import HookCounterThree from "./components/HookCounterThree";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            {/* <HookCounterThree /> */}
+            {/* <HookCounterFour />  */}
+            {/**<CounterOne */}
+            {/* <CounterTwo /> */}
+            {/* <CounterThree /> */}
+            {/* <DataFetchingOne /> */}
+            <DataFetchingTwo /> 
+        </div>
+    );
 }
 
 export default App;
